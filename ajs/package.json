@@ -32,7 +32,6 @@
     "karma-webpack": "3.0.5",
     "ng-annotate-loader": "0.6.1",
     "ng-annotate-patched": "1.7.0",
-    "node-sass": "4.11.0",
     "sass-loader": "7.1.0",
     "style-loader": "0.23.1",
     "uglifyjs-webpack-plugin": "2.0.1",
@@ -44,6 +43,7 @@
     "@uirouter/angularjs": "1.0.20",
     "angular": "1.7.5",
     "angular-sanitize": "1.7.5",
-    "core-js": "2.6.0"
+    "core-js": "2.6.0",
+    "node-sass": "^4.14.1"
   }
 }

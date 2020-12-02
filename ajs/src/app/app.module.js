@@ -5,6 +5,7 @@ import coreModule from './core/core.module';
 import homeModule from './home/home.module';
 import sessionModule from './session/session.module';
 import speakerModule from './speaker/speaker.module';
+import todoModule from './todo/todo.module';
 import states from './app.states';
 
 
@@ -14,7 +15,8 @@ const appModule = angular.module('migrate-demo', [
     coreModule.name,
     homeModule.name,
     sessionModule.name,
-    speakerModule.name
+    speakerModule.name,
+    todoModule.name
 ]);
 
 

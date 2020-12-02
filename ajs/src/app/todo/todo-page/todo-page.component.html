@@ -1,0 +1,8 @@
+<h1>Todo</h1>
+<ul>
+    <input type="text" ng-model="$ctrl.newTodo"><button ng-click="$ctrl.addTodo()">Add todo...</button>
+    <li ng-repeat="todo in $ctrl.todos">
+        <md-todo-item todo="todo"></md-todo-item>
+    </li>
+    <button ng-click="$ctrl.clearDone()">Clear done</button>
+</ul>

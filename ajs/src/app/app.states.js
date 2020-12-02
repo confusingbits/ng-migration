@@ -34,10 +34,21 @@ export default function(appModule) {
             }
         };
 
+        const todoState = {
+            name: 'todo',
+            url: '/todos',
+            views: {
+                'content': {
+                    component: 'mdTodoPage'
+                }
+            }
+        };
+
       
         $stateProvider.state(homeState);
         $stateProvider.state(sessionState);
         $stateProvider.state(speakerState);
+        $stateProvider.state(todoState);
 
 
         $urlRouterProvider.otherwise('/');
